@@ -13,7 +13,8 @@ public abstract class User {
         this.l_name = l_name;
     }
 
-    public String UsertoString () {
+    @Override
+    public String toString () {
         return login + ";" + password
                 + ";" + f_name  + ";" + l_name;
     }

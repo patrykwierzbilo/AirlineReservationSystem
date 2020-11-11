@@ -91,7 +91,7 @@ public class LoggedClient extends ClientInterface {
         printer.printMessage("ticket_id;flight_id;user_login");
         for(Ticket t: tickets)
             if (t.getLogin().equals(login))
-                printer.printMessage(t.TickettoString());
+                printer.printMessage(t.toString());
         System.in.read();
     }
 

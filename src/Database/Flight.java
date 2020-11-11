@@ -64,7 +64,8 @@ public class Flight {
         return (seats_booked < seats_number);
     }
 
-    public String FlighttoString () {
+    @Override
+    public String toString () {
         return flight_id + ";" + departure
                 + ";" + arrival  + ";" + departure_date  + ";" + departure_time
                 + ";" + arrival_date  + ";" + arrival_time  + ";" + seats_number

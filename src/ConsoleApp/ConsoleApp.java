@@ -80,7 +80,7 @@ public class ConsoleApp {
         printer.printMessage("flight_id;departure_place;arrival_place;departure_date;departure_time");
         printer.printMessage("arrival_date;arrival_time;seats_number;seats_booked;price");
         for(Flight f: database.getFlight()) {
-            printer.printMessage(f.FlighttoString());
+            printer.printMessage(f.toString());
         }
         //aplikacja czeka az uzytkownik kliknie dowolny przycisk
         //zanim przejdzie do kolejnego okna
@@ -96,10 +96,10 @@ public class ConsoleApp {
         printer.printMessage("login;password;first_name;last_name");
         for(Admin a: admins)
             if(a.getLogin().equals(login))
-                printer.printMessage(a.UsertoString());
+                printer.printMessage(a.toString());
         for(Client c: clients)
             if(c.getLogin().equals(login))
-                printer.printMessage(c.UsertoString());
+                printer.printMessage(c.toString());
         System.in.read();
     }
 

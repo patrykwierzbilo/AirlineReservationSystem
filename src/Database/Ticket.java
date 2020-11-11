@@ -17,7 +17,8 @@ public class Ticket {
         this.login = data[2];
     }
 
-    public String TickettoString () {
+    @Override
+    public String toString () {
         return ticket_id + ";" + flight_id
                 + ";" + login;
     }

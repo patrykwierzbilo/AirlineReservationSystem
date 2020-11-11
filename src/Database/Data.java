@@ -30,10 +30,10 @@ public class Data {
 
     public void saveData(List<Admin> admins, List<Client> clients,
                          List<Flight> flights, List<Ticket> tickets) throws IOException {
-        writeDataToDB(convertAdminsToString(admins), "admin");
-        writeDataToDB(convertClientsToString(clients), "client");
-        writeDataToDB(convertTicketsToString(tickets), "ticket");
-        writeDataToDB(convertFlightsToString(flights), "flight");
+        writeDataToDB(convertToString(admins), "admin");
+        writeDataToDB(convertToString(clients), "client");
+        writeDataToDB(convertToString(tickets), "ticket");
+        writeDataToDB(convertToString(flights), "flight");
     }
 
     public void writeDataToDB(List<String> data, String name) {
@@ -78,32 +78,10 @@ public class Data {
         return result;
     }
 
-    //tak samo jak przy convertStringToObject
-    public List<String> convertAdminsToString(List<Admin> admins) {
+    public <T> List<String> convertToString(List<T> objects) {
         List<String> result = new ArrayList<>();
-        for(Admin a: admins)
-            result.add(a.UsertoString());
-        return result;
-    }
-
-    public List<String> convertClientsToString(List<Client> clients) {
-        List<String> result = new ArrayList<>();
-        for(Client c: clients)
-            result.add(c.UsertoString());
-        return result;
-    }
-
-    public List<String> convertFlightsToString(List<Flight> flights) {
-        List<String> result = new ArrayList<>();
-        for(Flight f: flights)
-            result.add(f.FlighttoString());
-        return result;
-    }
-
-    public List<String> convertTicketsToString(List<Ticket> tickets) {
-        List<String> result = new ArrayList<>();
-        for(Ticket t: tickets)
-            result.add(t.TickettoString());
+        for(T obj: objects)
+            result.add(obj.toString());
         return result;
     }
 
