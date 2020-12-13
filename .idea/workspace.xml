@@ -7,19 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31b1f297-10a7-4d30-92e7-7c7ef610523d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ARS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ARS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConsoleApp/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsoleApp/ConsoleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConsoleApp/LoggedClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsoleApp/LoggedClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/admin_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/admin_data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/client_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/client_data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/flight_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/flight_data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/ticket_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/ticket_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ARS/Database/admin_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ARS/Database/admin_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ARS/Database/client_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ARS/Database/client_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ARS/Database/flight_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ARS/Database/flight_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ARS/Database/ticket_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ARS/Database/ticket_data.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +91,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ARS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.DatabaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionalTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ARS" />
       <extension name="coverage">
@@ -130,22 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalTests.FTDeleteClientAccountWithIncorrectData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ARS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.FunctionalTests" />
-      <option name="METHOD_NAME" value="FTDeleteClientAccountWithIncorrectData" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FunctionalTests.FTIncorrectClientAccountModification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ARS" />
       <extension name="coverage">
@@ -165,10 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.DatabaseTest" />
         <item itemvalue="JUnit.FunctionalTests" />
         <item itemvalue="JUnit.FunctionalTests.FTIncorrectClientAccountModification" />
         <item itemvalue="JUnit.FunctionalTests.FTCorrectClientAccountModification" />
-        <item itemvalue="JUnit.FunctionalTests.FTDeleteClientAccountWithIncorrectData" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +195,10 @@
       <workItem from="1590966338290" duration="38000" />
       <workItem from="1591607836007" duration="578000" />
       <workItem from="1605036600220" duration="1155000" />
-      <workItem from="1605100602654" duration="892000" />
+      <workItem from="1605100602654" duration="2467000" />
+      <workItem from="1605282792338" duration="14000" />
+      <workItem from="1606936048735" duration="682000" />
+      <workItem from="1607110000152" duration="9000" />
     </task>
     <servers />
   </component>
@@ -220,26 +214,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605101356212" />
-    <state width="1537" height="414" key="GridCell.Tab.0.bottom" timestamp="1605101495530">
+    <state width="1493" height="372" key="GridCell.Tab.0.bottom" timestamp="1606937602121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="414" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605101495530" />
-    <state width="1537" height="414" key="GridCell.Tab.0.center" timestamp="1605101495530">
+    <state width="1493" height="372" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606937602121" />
+    <state width="1493" height="372" key="GridCell.Tab.0.center" timestamp="1606937602121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="414" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605101495530" />
-    <state width="1537" height="414" key="GridCell.Tab.0.left" timestamp="1605101495530">
+    <state width="1493" height="372" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606937602121" />
+    <state width="1493" height="372" key="GridCell.Tab.0.left" timestamp="1606937602121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="414" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605101495530" />
-    <state width="1537" height="414" key="GridCell.Tab.0.right" timestamp="1605101495530">
+    <state width="1493" height="372" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606937602121" />
+    <state width="1493" height="372" key="GridCell.Tab.0.right" timestamp="1606937602121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="414" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605101495530" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1605100603472">
+    <state width="1493" height="372" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606937602121" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1607110001485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1605100603472" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1607110001485" />
     <state x="498" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605101378397">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
