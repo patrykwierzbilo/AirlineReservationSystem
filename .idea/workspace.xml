@@ -7,11 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31b1f297-10a7-4d30-92e7-7c7ef610523d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ARS/Database/admin_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ARS/Database/admin_data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ARS/Database/client_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ARS/Database/client_data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ARS/Database/flight_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ARS/Database/flight_data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ARS/Database/ticket_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ARS/Database/ticket_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/admin_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/admin_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/client_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/client_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/flight_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/flight_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/ticket_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/ticket_data.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +71,10 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java/w10" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
@@ -199,6 +204,22 @@
       <workItem from="1605282792338" duration="14000" />
       <workItem from="1606936048735" duration="682000" />
       <workItem from="1607110000152" duration="9000" />
+      <workItem from="1607877616425" duration="3808000" />
+      <workItem from="1607984509675" duration="14000" />
+      <workItem from="1608064040092" duration="596000" />
+      <workItem from="1608117840233" duration="2309000" />
+      <workItem from="1608215849724" duration="6603000" />
+      <workItem from="1608308472137" duration="1165000" />
+      <workItem from="1608556844730" duration="939000" />
+      <workItem from="1608664039140" duration="258000" />
+      <workItem from="1608664541181" duration="931000" />
+      <workItem from="1608665543728" duration="8000" />
+      <workItem from="1610213782223" duration="748000" />
+      <workItem from="1610388948728" duration="4927000" />
+      <workItem from="1610451129408" duration="3628000" />
+      <workItem from="1610468098028" duration="1589000" />
+      <workItem from="1610477992048" duration="46000" />
+      <workItem from="1610617236428" duration="3487000" />
     </task>
     <servers />
   </component>
@@ -210,33 +231,41 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605100993506" />
-    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1605101356212">
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1608557995312">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605101356212" />
-    <state width="1493" height="372" key="GridCell.Tab.0.bottom" timestamp="1606937602121">
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608557995312" />
+    <state width="1493" height="401" key="GridCell.Tab.0.bottom" timestamp="1610626572992">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="372" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606937602121" />
-    <state width="1493" height="372" key="GridCell.Tab.0.center" timestamp="1606937602121">
+    <state width="1493" height="401" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610626572992" />
+    <state width="1493" height="401" key="GridCell.Tab.0.center" timestamp="1610626572991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="372" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606937602121" />
-    <state width="1493" height="372" key="GridCell.Tab.0.left" timestamp="1606937602121">
+    <state width="1493" height="401" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610626572991" />
+    <state width="1493" height="401" key="GridCell.Tab.0.left" timestamp="1610626572991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="372" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606937602121" />
-    <state width="1493" height="372" key="GridCell.Tab.0.right" timestamp="1606937602121">
+    <state width="1493" height="401" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610626572991" />
+    <state width="1493" height="401" key="GridCell.Tab.0.right" timestamp="1610626572991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="372" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606937602121" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1607110001485">
+    <state width="1493" height="401" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610626572991" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1608665204190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1607110001485" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608665204190" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1610477991612">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1610477991612" />
     <state x="498" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605101378397">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1605101378397" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1610478027804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1610478027804" />
   </component>
 </project>
