@@ -15,5 +15,5 @@ Console application for booking airline tickets. Created as a final project for 
 
 # Screenshots
 
-**User interface:**
+**User interface:**<br />
 ![img](docs/arsInterface.jpg)
